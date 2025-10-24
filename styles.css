@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+	flex-wrap:wrap;
+	flex-shrink:0;
+}
+.item1{
+background-color:red;
+	font-size:2rem;
+	color:white;
+	width:150px;
+	height:150px;
+	
+}
+.item3{
+	width:150px;
+	height:150px;
+	
+	font-size:2rem;
+	color:white;
+background-color:green;
+}
+.item2{
+	width:150px;
+	height:150px;
+	font-size:2rem;
+	color:white;
+	background-color:blue;
+}
